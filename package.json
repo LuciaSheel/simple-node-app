@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "echo 'App deployed successfully!'",
+    "start": "node server.js",
     "test": "jest"
   },
   "keywords": [],
@@ -12,5 +12,8 @@
   "description": "",
   "devDependencies": {
     "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   }
 }
